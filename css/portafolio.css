@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+ body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+   background: linear-gradient(to top, rgba(255, 248, 235, 1), rgba(255, 214, 168, 1)),
+    url(../img/fondo4chan.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+ *{
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+
+ html{
+   scroll-behavior: smooth; 
+ }
+ .container-header{
+    background: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+ }
+.fa-x-twitter{
+    font-size: 22px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.fa-x-twitter:hover{
+     color: gold;
+    transform:scale(1.2);
+
+}
+
+ .container-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+ }
+
+ .container-header header .logo a{
+    font-family: 'Righteous', cursive;
+    font-size: 36px;
+    color: #b61c1c;
+    text-decoration: none;
+ }
+
+ .container-header header ul{
+    display: flex;
+    list-style: none;
+ }
+
+ .container-header header nav ul li a{
+    text-align: center;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+ }
+
+ .container-header header nav ul li a:hover{
+    color: #b68d1c;
+ }
+
+h1{
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    color: #b68d1c;
+    margin: 150px 0;
+    
+}
+
+
+
+ .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;    
+}
+.ecard{
+    background: #000000;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1 green, blue, alpha);
+    width: 400px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    transition: transform 0.3s ease;
+
+}
+.ecard img{
+    width: 100%;
+    bottom: 20px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.ecard .contenido{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.ecard h2{
+    margin: 10px 0 5px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    color: #b68d1c;
+}
+.ecard p{
+    font-size: 14px;
+    color: #ffffff;
+
+}
+.ecard button{
+    background: #b61c1c;
+    border: 1px solid #b68d1c;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+.ecard button:hover{
+    background: #b68d1c;
+    color: #fff;
+}
+.ecard:hover{
+    transform: scale(1.05);
+
+}
+
+
+
+ footer{
+    background-color: black;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+footer .redes{
+    margin-bottom: 20px;
+}
+
+footer .redes a{
+    color: #b61c1c;
+    display: inline-block;
+    border: 1px solid #b61c1c;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 10px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+footer .redes a:hover{
+    background-color: #b68d1c;
+    border-color: #b68d1c;
+    transform: scale(1.1);
+}

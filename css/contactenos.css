@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), 
+    url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Word Sans";
+    margin: 0;
+    padding: 0;
+}
+
+.container-header{
+    background: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.container-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    padding: 15px 20px;
+}
+
+.container-header header .logo a{
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: #b61c1c;
+    text-decoration: none;
+
+}
+
+.container-header header ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.container-header header nav ul li a{
+    text-align: center;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.container-header header nav ul li a:hover{
+    color: #b68d1c;
+}
+
+.contactame{
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1));
+    color: #b68d1c;
+}
+
+.contactame h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #b61c1c;
+    padding: 50px 0;
+}
+
+.contactame p{
+    margin-bottom: 30px;
+    color: #ddd;
+}
+.contacto-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 40px;
+  flex-wrap: wrap; 
+}
+
+.formulario{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10%;
+    flex: 1;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(251, 102, 2, 0.904);
+}
+
+.formulario input,
+.formulario textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: #b68d1c;
+    border-radius: 10px;
+    outline: none;
+}
+ .formulario button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+     background: #b61c1c;
+     color: #b68d1c;
+     font-weight: bold;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: background .3s;
+ }
+
+ .formulario button:hover {
+  background: #b68d1c;
+  color: #b61c1c;
+}
+
+.mapa {
+  flex: 1; /* ocupa la otra mitad */
+  min-width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.mapa iframe{
+    border-radius: 30px;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+footer .redes{
+    margin-bottom: 20px;
+}
+
+footer .redes a{
+    color: #b61c1c;
+    display: inline-block;
+    border: 1px solid #b61c1c;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 10px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+footer .redes a:hover{
+    background-color: #b68d1c;
+    border-color: #b68d1c;
+    transform: scale(1.1);
+}
