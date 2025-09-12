@@ -120,11 +120,13 @@ body{
      border-radius: 10px;
      cursor: pointer;
      transition: background .3s;
+     
  }
 
  .formulario button:hover {
   background: #b68d1c;
   color: #b61c1c;
+  transform: scale(1.1);
 }
 
 .mapa {
