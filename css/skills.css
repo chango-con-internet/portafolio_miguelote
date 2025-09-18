@@ -361,3 +361,7 @@ footer .redes a:hover{
         margin: 8px;
     }
 }
+
+#menu-toggle {
+  display: none;
+}

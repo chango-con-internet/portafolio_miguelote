@@ -229,3 +229,7 @@ footer .redes a:hover{
     }
 
 }
+
+#menu-toggle {
+  display: none;
+}

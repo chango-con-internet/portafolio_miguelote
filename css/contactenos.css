@@ -142,14 +142,14 @@ body{
 footer{
     background-color: black;
     color: #fff;
-    padding: 15px 0;
+    padding: 20px 0;
     text-align: center;
     position: relative;
     width: 100%;
 }
 
 footer .redes{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 footer .redes a{
@@ -216,4 +216,8 @@ footer .redes a:hover{
         text-align: left;
     }
 
+}
+
+#menu-toggle {
+  display: none;
 }
